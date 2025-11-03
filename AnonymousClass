@@ -5,7 +5,7 @@ void methodOne();
 public class AnonymousClass{
 public static void main(String args[]){
 One o=new One(){
- public void methodOne{
+ public void methodOne(){
 System.out.println("From method one");
 }
 };
